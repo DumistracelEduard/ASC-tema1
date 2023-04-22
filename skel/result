@@ -29,9 +29,13 @@ Starting test 10
 Finished test 10
 Test 10:		PASSED
 
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+
 Run pylint
 
 
--------------------------------------------------------------------
-Your code has been rated at 10.00/10 (previous run: 9.24/10, +0.76)
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
