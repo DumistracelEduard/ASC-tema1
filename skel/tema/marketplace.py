@@ -112,9 +112,9 @@ class Marketplace:
         :returns True or False. If the caller receives False, it should wait and then try again
         """
         with self.lock:
-            for (id_prod, product_list) in self.producers.items():
+            for product_list in self.producers.values():
                 if product in product_list:
-                    self.producers[id_prod].remove(product)
+                    product_list.remove(product)
                     self.carts[cart_id].append(product)
                     logging.info("cart_id %s: %s", cart_id, product)
                     return True

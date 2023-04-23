@@ -4,8 +4,9 @@ Organizare:
     Am ales sa stochez produsele in 2 locuri. Astfel,
 am products in care stochez produsele si producers in care gasim
 fiecare producator cu lista de produse pe care o are pe care o actualizam.
-In cazul in care se adauga in cos un produs acesta e scos din lista de produse
-disponibile. In cazul in care se plaseaza comanda acesta este scos si de la producer.
+In cazul in care se adauga in cos un produs acesta e scos din lista de
+produse de la producer, dar nu si din cea de la produse.
+In cazul in care se plaseaza comanda acesta este scos si de la produse.
 
 Lock-uri:
     Am folosit Lock-uri in cazul in care se acceseaza in acelasi timp o variabila care
