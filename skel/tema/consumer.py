@@ -42,6 +42,7 @@ class Consumer(Thread):
         new_cart = self.marketplace.new_cart()
         for cart in self.carts:
             for cart_action in cart:
+                # Accesarea datelor
                 type_instr = cart_action["type"]
                 product = cart_action["product"]
                 quantity = cart_action["quantity"]
@@ -49,10 +50,11 @@ class Consumer(Thread):
                 if type_instr == "add":
                     while quantity != 0:
                         if self.marketplace.add_to_cart(new_cart, product):
-
                             quantity -= 1
                         else:
+                            # in cazul care produsul nu e disponibil se asteapta
                             time.sleep(self.retry_wait_time)
+
                 if type_instr == "remove":
                     while quantity != 0:
                         self.marketplace.remove_from_cart(new_cart, product)

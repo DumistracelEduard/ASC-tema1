@@ -1,0 +1,33 @@
+Dumistracel Eduard-Costin
+
+Organizare:
+    Am ales sa stochez produsele in 2 locuri. Astfel,
+am products in care stochez produsele si producers in care gasim
+fiecare producator cu lista de produse pe care o are pe care o actualizam.
+In cazul in care se adauga in cos un produs acesta e scos din lista de produse
+disponibile. In cazul in care se plaseaza comanda acesta este scos si de la producer.
+
+Lock-uri:
+    Am folosit Lock-uri in cazul in care se acceseaza in acelasi timp o variabila care
+nu e atomica de catre 2 thread-uri / atunci cand printez comanda.
+
+Tema daca este utila:
+    Tema este utila deoarece ne face sa lucram cu thread-uri in python si sa aprofundam
+partea de multithreading, dar in acelasi timp partea de loggin nu este un lucru necesar
+deoarece tema nu este atat de complexa.
+
+Implementare:
+    In momentul de fata implementarea mi se pare eficienta, dar poate atunci cand o sa
+aud si alte implementari ale colegilor sa o pot perfectiona.
+
+Implementare:
+    Toata tema este implementata. Dificultatea pe care am avut-o a fost partea de printare
+deoarece la inceput nu stiam de ce mai apar lucruri printate random, iar lucrul interesant
+pe care l-am descoperit in python e ca atunci cand printam trebuie sa avem grija ca 2
+thread-uri sa nu acceseze in acelasi timp acel print.
+
+Resurse utilizate:
+    https://ocw.cs.pub.ro/courses/asc/laboratoare/02
+
+Git:
+    https://github.com/DumistracelEduard/ASC-tema1

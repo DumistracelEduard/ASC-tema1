@@ -7,6 +7,7 @@ March 2021
 """
 import logging
 import time
+import unittest
 from logging.handlers import RotatingFileHandler
 from threading import Lock
 
@@ -17,11 +18,13 @@ logging.basicConfig(
 )
 logging.Formatter.converter = time.gmtime
 
+
 class Marketplace:
     """
     Class that represents the Marketplace. It's the central part of the implementation.
     The producers and consumers use its methods concurrently.
     """
+
     def __init__(self, queue_size_per_producer):
         """
         Constructor
@@ -41,18 +44,22 @@ class Marketplace:
         # available product
         self.product_available = []
 
-        self.lock = Lock()
+        self.products = {}
 
+        self.lock = Lock()
 
     def register_producer(self):
         """
         Returns an id for the producer that calls this.
         """
+        # id-urile incep de la 1
         with self.lock:
             self.number_of_producers += 1
             self.number_of_carts += 1
             self.producers[self.number_of_producers] = []
+            self.products[self.number_of_producers] = []
             logging.info("register prod id = %s", self.number_of_producers)
+
         return self.number_of_producers
 
     def publish(self, producer_id, product):
@@ -67,14 +74,15 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again.
         """
+        # in cazul in care are numarul maxim de produse
         if len(self.producers[producer_id]) == self.queue_size_per_producer:
             logging.info("%s product: %s full", producer_id, product)
             return False
 
         with self.lock:
             logging.info("%s product: %s", producer_id, product[0])
-            self.producers[producer_id].append(product)
-            self.product_available.append(product[0])
+            self.producers[producer_id].append(product[0])
+            self.products[producer_id].append(product[0])
         return True
 
     def new_cart(self):
@@ -83,6 +91,7 @@ class Marketplace:
 
         :returns an int representing the cart_id
         """
+        # id-urile incep de la 1
         with self.lock:
             self.number_of_carts += 1
             logging.info("new_cart_id: %s", self.number_of_carts)
@@ -103,12 +112,14 @@ class Marketplace:
         :returns True or False. If the caller receives False, it should wait and then try again
         """
         with self.lock:
-            for elem in self.product_available:
-                if product == elem:
+            for (id_prod, product_list) in self.producers.items():
+                if product in product_list:
+                    self.producers[id_prod].remove(product)
                     self.carts[cart_id].append(product)
                     logging.info("cart_id %s: %s", cart_id, product)
                     return True
-        logging.info("%s wait for %s", cart_id, product)
+
+        logging.info("%s wait for %s False", cart_id, product)
         return False
 
     def remove_from_cart(self, cart_id, product):
@@ -123,7 +134,11 @@ class Marketplace:
         """
         if product in self.carts[cart_id]:
             self.carts[cart_id].remove(product)
-            self.product_available.append(product)
+            for (id_prd, elem) in self.products.items():
+                for product_elem in elem:
+                    if product == product_elem:
+                        self.producers[id_prd].append(product)
+
             logging.info("remove %s: %s", cart_id, product)
             return True
 
@@ -139,10 +154,79 @@ class Marketplace:
         """
         list_products = self.carts[cart_id]
         self.carts.pop(cart_id)
+
         for product in list_products:
-            for list_products_prod in self.producers.values():
+            for list_products_prod in self.products.values():
                 if product in list_products_prod:
                     list_products_prod.remove(product)
 
         logging.info("place_order:%s", list_products)
         return list_products
+
+
+class TestMarketplace(unittest.TestCase):
+    """
+    tests
+    """
+    def setUp(self):
+        """
+        setup market
+        """
+        self.market_place = Marketplace(2)
+
+    def test_add_cart(self):
+        """
+        new cart id
+        """
+        self.assertEqual(1, self.market_place.new_cart(), "Error id cart")
+
+    def test_add_producer(self):
+        """
+        get producer id
+        """
+        self.assertEqual(1, self.market_place.register_producer(), "Error id producer")
+
+    def test_publish(self):
+        """
+        publish product
+        """
+        id_prod = self.market_place.register_producer()
+        product_add = ["prod1", ["id1", 1, 0.1], 0.2]
+        self.assertEqual(True, self.market_place.publish(id_prod, product_add),
+                         "Error publish")
+
+    def test_add_to_cart(self):
+        """
+        add to cart
+        """
+        id_prod = self.market_place.register_producer()
+        id_cart = self.market_place.new_cart()
+        product_add = ["prod1", ["id1", 1, 0.1], 0.2]
+        self.market_place.publish(id_prod, product_add)
+        self.assertEqual(True, self.market_place.add_to_cart(id_cart, "prod1"),
+                         "Error add_to_cart")
+
+    def test_remove_from_cart(self):
+        """
+        remove from cart
+        """
+        id_prod = self.market_place.register_producer()
+        id_cart = self.market_place.new_cart()
+        product_add = ["prod1", ["id1", 1, 0.1], 0.2]
+        self.market_place.publish(id_prod, product_add)
+        self.market_place.add_to_cart(id_cart, "prod1")
+        self.assertEqual(True, self.market_place.remove_from_cart(id_cart, "prod1"),
+                         "Error remove_to_cart")
+
+    def test_place_order(self):
+        """
+        check size
+        """
+        id_prod = self.market_place.register_producer()
+        id_cart = self.market_place.new_cart()
+        product_add = ["prod1", ["id1", 1, 0.1], 0.2]
+        self.market_place.publish(id_prod, product_add)
+        self.market_place.add_to_cart(id_cart, "prod1")
+        data = self.market_place.place_order(id_cart)
+        self.assertEqual(1, len(data),
+                         "Error place_to_cart")

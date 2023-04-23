@@ -1,0 +1,484 @@
+2023-04-23 06:24:37,934 INFO: cart_id 110: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:37,933 INFO: 18 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.16) full
+2023-04-23 06:24:37,941 INFO: 21 product: (Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 3, 0.37) full
+2023-04-23 06:24:37,957 INFO: cart_id 110: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:37,958 INFO: cart_id 110: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:37,958 INFO: cart_id 110: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:37,961 INFO: cart_id 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,961 INFO: cart_id 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,962 INFO: cart_id 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,962 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:37,963 INFO: cart_id 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,964 INFO: cart_id 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,964 INFO: remove 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,965 INFO: remove 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,965 INFO: remove 110: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,964 INFO: 48 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,966 INFO: place_order:[Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')]
+2023-04-23 06:24:37,966 INFO: 47 product: (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2, 0.38) full
+2023-04-23 06:24:37,967 INFO: cart_id 57: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:37,968 INFO: cart_id 57: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,968 INFO: cart_id 57: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,969 INFO: cart_id 57: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,969 INFO: cart_id 57: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,970 INFO: cart_id 57: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,971 INFO: cart_id 57: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,971 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:37,971 INFO: cart_id 57: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,972 INFO: cart_id 57: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:37,973 INFO: cart_id 57: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:37,973 INFO: cart_id 57: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:37,974 INFO: cart_id 57: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:37,974 INFO: cart_id 57: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:37,975 INFO: cart_id 57: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:37,975 INFO: cart_id 57: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:37,975 INFO: 30 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 3, 0.22) full
+2023-04-23 06:24:37,976 INFO: remove 57: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:37,976 INFO: 6 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:37,977 INFO: place_order:[Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')]
+2023-04-23 06:24:37,978 INFO: cart_id 166: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:37,979 INFO: 166 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:37,979 INFO: 40 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:37,980 INFO: 34 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:37,980 INFO: 32 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,981 INFO: 11 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:37,981 INFO: 35 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,982 INFO: 183 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:37,982 INFO: 5 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:37,983 INFO: 14 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:37,984 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,985 INFO: 188 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:37,985 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:37,989 INFO: 2 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:37,994 INFO: 25 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:37,996 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:37,999 INFO: 17 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,000 INFO: 22 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,006 INFO: 3 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,009 INFO: 10 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,015 INFO: 19 product: (Tea(name='English Breakfast', price=2, type='Black'), 3, 0.23) full
+2023-04-23 06:24:38,034 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,044 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,044 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,045 INFO: 31 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 3, 0.21) full
+2023-04-23 06:24:38,047 INFO: cart_id 95: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,049 INFO: 95 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,051 INFO: 34 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,052 INFO: 78 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,057 INFO: 48 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,058 INFO: 13 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,062 INFO: 43 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,067 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,069 INFO: 133 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,070 INFO: 219 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,070 INFO: 17 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,081 INFO: 45 product: (Tea(name='White Peach', price=5, type='White'), 3, 0.38) full
+2023-04-23 06:24:38,081 INFO: 11 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,085 INFO: 24 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,092 INFO: 27 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,094 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:38,096 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,102 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,104 INFO: cart_id 84: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,105 INFO: cart_id 84: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,105 INFO: cart_id 84: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,106 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,106 INFO: place_order:[Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Tea(name='Pai Mu Tan', price=9, type='White')]
+2023-04-23 06:24:38,106 INFO: 14 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,109 INFO: 13 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,110 INFO: 8 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,117 INFO: 6 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,121 INFO: 34 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,125 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,127 INFO: 29 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.13) full
+2023-04-23 06:24:38,129 INFO: 16 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,129 INFO: 1 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,130 INFO: 2 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,133 INFO: 23 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,135 INFO: 39 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 2, 0.09) full
+2023-04-23 06:24:38,138 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,148 INFO: 48 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,157 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,160 INFO: 13 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,160 INFO: 20 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,166 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,172 INFO: 44 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,174 INFO: 41 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,174 INFO: 12 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,180 INFO: cart_id 166: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,181 INFO: 166 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,181 INFO: 22 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,205 INFO: 25 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,206 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,207 INFO: 15 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,208 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,209 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,211 INFO: 32 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,217 INFO: 19 product: (Tea(name='English Breakfast', price=2, type='Black'), 3, 0.23) full
+2023-04-23 06:24:38,223 INFO: 9 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,227 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,228 INFO: 14 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,232 INFO: 35 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,234 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,235 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,236 INFO: 7 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,236 INFO: 24 product: (Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 2, 0.15) full
+2023-04-23 06:24:38,238 INFO: 49 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,239 INFO: 48 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,244 INFO: 23 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,248 INFO: 21 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,252 INFO: 22 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,253 INFO: 11 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,255 INFO: cart_id 188: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,256 INFO: 188 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,257 INFO: 30 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 3, 0.22) full
+2023-04-23 06:24:38,259 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,260 INFO: 4 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,261 INFO: 10 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,265 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:38,271 INFO: 2 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,273 INFO: cart_id 183: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,274 INFO: 183 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,275 INFO: 27 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,278 INFO: 18 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.16) full
+2023-04-23 06:24:38,280 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,282 INFO: 45 product: (Tea(name='White Peach', price=5, type='White'), 3, 0.38) full
+2023-04-23 06:24:38,284 INFO: 5 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,286 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,287 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,289 INFO: 50 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,290 INFO: 40 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,292 INFO: 32 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,304 INFO: 35 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,310 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,318 INFO: 6 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,323 INFO: 22 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,327 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,328 INFO: 47 product: (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2, 0.38) full
+2023-04-23 06:24:38,330 INFO: 16 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,336 INFO: 31 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 3, 0.21) full
+2023-04-23 06:24:38,338 INFO: 3 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,338 INFO: 29 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.13) full
+2023-04-23 06:24:38,348 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,351 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,352 INFO: 2 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,355 INFO: 23 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,360 INFO: 48 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,364 INFO: 41 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,365 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,367 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,371 INFO: 8 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,372 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,373 INFO: 32 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,380 INFO: 50 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,382 INFO: cart_id 166: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,383 INFO: cart_id 166: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,384 INFO: cart_id 166: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,384 INFO: cart_id 166: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,385 INFO: cart_id 166: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,385 INFO: cart_id 166: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,386 INFO: place_order:[Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Vietnam Oolong', price=10, type='Oolong'), Tea(name='Vietnam Oolong', price=10, type='Oolong'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White')]
+2023-04-23 06:24:38,386 INFO: cart_id 78: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,387 INFO: 78 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,387 INFO: 34 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,391 INFO: 1 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,394 INFO: 22 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,401 INFO: 13 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,408 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,416 INFO: 25 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,418 INFO: 19 product: (Tea(name='English Breakfast', price=2, type='Black'), 3, 0.23) full
+2023-04-23 06:24:38,418 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,420 INFO: 95 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,422 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,423 INFO: 43 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,424 INFO: 11 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,433 INFO: 44 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,434 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,436 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:38,442 INFO: cart_id 133: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,442 INFO: cart_id 133: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,443 INFO: cart_id 133: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,443 INFO: cart_id 133: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,444 INFO: cart_id 133: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,444 INFO: remove 133: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,445 INFO: 219 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,445 INFO: place_order:[Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')]
+2023-04-23 06:24:38,445 INFO: 22 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,448 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,452 INFO: 17 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,454 INFO: 32 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,456 INFO: 27 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,465 INFO: 35 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,467 INFO: 7 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,469 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,469 INFO: 34 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,472 INFO: 20 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,473 INFO: 50 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,476 INFO: 39 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 2, 0.09) full
+2023-04-23 06:24:38,481 INFO: 48 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,483 INFO: 45 product: (Tea(name='White Peach', price=5, type='White'), 3, 0.38) full
+2023-04-23 06:24:38,484 INFO: 9 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,485 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,485 INFO: 12 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,493 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,496 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,497 INFO: 22 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,510 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,513 INFO: 2 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,519 INFO: 6 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,526 INFO: 23 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,527 INFO: cart_id 188: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,528 INFO: cart_id 188: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,528 INFO: cart_id 188: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,529 INFO: cart_id 188: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,530 INFO: remove 188: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,529 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,529 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,530 INFO: place_order:[Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')]
+2023-04-23 06:24:38,531 INFO: 16 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,536 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,538 INFO: 30 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 3, 0.22) full
+2023-04-23 06:24:38,548 INFO: 15 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,549 INFO: 29 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.13) full
+2023-04-23 06:24:38,551 INFO: 34 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,556 INFO: 41 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,564 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,565 INFO: 9 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,566 INFO: cart_id 183: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,566 INFO: cart_id 183: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,567 INFO: cart_id 183: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,567 INFO: cart_id 183: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,568 INFO: cart_id 183: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,568 INFO: cart_id 183: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,568 INFO: cart_id 183: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,569 INFO: cart_id 183: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,569 INFO: cart_id 183: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,570 INFO: cart_id 183: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,570 INFO: cart_id 183: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,571 INFO: cart_id 183: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,571 INFO: cart_id 183: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,572 INFO: cart_id 183: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,573 INFO: cart_id 183: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,573 INFO: cart_id 183: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,574 INFO: cart_id 183: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,574 INFO: remove 183: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,574 INFO: 49 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,575 INFO: cart_id 183: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,575 INFO: cart_id 183: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,576 INFO: cart_id 183: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,576 INFO: cart_id 183: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,577 INFO: cart_id 183: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,577 INFO: cart_id 183: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,577 INFO: cart_id 183: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,578 INFO: cart_id 183: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,578 INFO: cart_id 183: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,579 INFO: place_order:[Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Pai Mu Tan', price=9, type='White'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Tea(name='White Peach', price=5, type='White'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Tea(name='English Breakfast', price=2, type='Black')]
+2023-04-23 06:24:38,587 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,590 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,598 INFO: 24 product: (Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 2, 0.15) full
+2023-04-23 06:24:38,599 INFO: 18 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.16) full
+2023-04-23 06:24:38,601 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,601 INFO: 4 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,602 INFO: 40 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,602 INFO: 48 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,607 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:38,611 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,619 INFO: 19 product: (Tea(name='English Breakfast', price=2, type='Black'), 3, 0.23) full
+2023-04-23 06:24:38,619 INFO: 21 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,622 INFO: 34 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,623 INFO: 50 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,626 INFO: 35 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,627 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,627 INFO: 31 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 3, 0.21) full
+2023-04-23 06:24:38,629 INFO: 14 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,632 INFO: 8 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,635 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,642 INFO: 13 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,645 INFO: 10 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,646 INFO: 9 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,646 INFO: 20 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,648 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,651 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,657 INFO: 27 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,674 INFO: 2 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,675 INFO: 5 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,684 INFO: 45 product: (Tea(name='White Peach', price=5, type='White'), 3, 0.38) full
+2023-04-23 06:24:38,689 INFO: 47 product: (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2, 0.38) full
+2023-04-23 06:24:38,691 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,693 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,693 INFO: 34 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,694 INFO: 48 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,694 INFO: 44 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,697 INFO: 25 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,698 INFO: 23 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,698 INFO: 20 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,699 INFO: 7 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,699 INFO: 3 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,706 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,709 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,712 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,717 INFO: 35 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,718 INFO: cart_id 78: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,719 INFO: cart_id 78: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,720 INFO: 78 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,725 INFO: 11 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,726 INFO: 9 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,733 INFO: 16 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,751 INFO: 14 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,752 INFO: 6 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,758 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,760 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,760 INFO: 29 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,764 INFO: 34 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,767 INFO: 41 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,773 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,774 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,774 INFO: 50 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,775 INFO: 43 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,775 INFO: 32 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,778 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:38,778 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,780 INFO: 15 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,782 INFO: 1 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,782 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,785 INFO: 48 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,792 INFO: 95 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,798 INFO: 23 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,809 INFO: 35 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,811 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,817 INFO: 219 wait for Tea(name='Jasmine', price=6, type='Green') False
+2023-04-23 06:24:38,818 INFO: 39 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 2, 0.09) full
+2023-04-23 06:24:38,819 INFO: 30 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 3, 0.22) full
+2023-04-23 06:24:38,820 INFO: 19 product: (Tea(name='English Breakfast', price=2, type='Black'), 3, 0.23) full
+2023-04-23 06:24:38,826 INFO: 2 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,833 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,833 INFO: 17 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,849 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,855 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,855 INFO: 13 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,857 INFO: 12 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,859 INFO: 27 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,862 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,868 INFO: 22 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:38,873 INFO: 14 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,873 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,876 INFO: 48 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,886 INFO: 45 product: (Tea(name='White Peach', price=5, type='White'), 3, 0.38) full
+2023-04-23 06:24:38,889 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:38,892 INFO: 29 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,893 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:38,899 INFO: 23 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,906 INFO: 49 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,913 INFO: 40 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:38,919 INFO: 31 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 3, 0.21) full
+2023-04-23 06:24:38,920 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,920 INFO: 18 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 3, 0.16) full
+2023-04-23 06:24:38,923 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:38,925 INFO: 50 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,930 INFO: 3 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,934 INFO: 16 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,935 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:38,946 INFO: 43 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,949 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:38,953 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:38,959 INFO: 24 product: (Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 2, 0.15) full
+2023-04-23 06:24:38,960 INFO: 7 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:38,964 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:38,971 INFO: 15 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,972 INFO: 4 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:38,976 INFO: 5 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,978 INFO: 25 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,978 INFO: 41 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:38,983 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:38,991 INFO: 21 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:38,991 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:38,993 INFO: 8 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:38,997 INFO: 48 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,000 INFO: 23 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,013 INFO: 6 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:39,014 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:39,016 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:39,020 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:39,021 INFO: 19 product: (Tea(name='English Breakfast', price=2, type='Black'), 3, 0.23) full
+2023-04-23 06:24:39,023 INFO: 29 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 3, 0.19) full
+2023-04-23 06:24:39,026 INFO: 10 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,027 INFO: 11 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:39,027 INFO: 34 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:39,028 INFO: 12 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,034 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,037 INFO: 9 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:39,039 INFO: 20 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:39,043 INFO: 1 product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:39,046 INFO: 44 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:39,050 INFO: 7 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,051 INFO: 47 product: (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2, 0.38) full
+2023-04-23 06:24:39,051 INFO: cart_id 78: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,052 INFO: remove 78: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,052 INFO: remove 78: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,053 INFO: cart_id 78: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:39,053 INFO: cart_id 78: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:39,054 INFO: remove 78: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-23 06:24:39,054 INFO: place_order:[Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Vietnam Oolong', price=10, type='Oolong')]
+2023-04-23 06:24:39,055 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:39,060 INFO: 27 product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:39,062 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:39,066 INFO: 50 product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,067 INFO: 13 product: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:39,074 INFO: 40 product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:39,074 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:39,085 INFO: 26 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,087 INFO: 45 product: (Tea(name='White Peach', price=5, type='White'), 3, 0.38) full
+2023-04-23 06:24:39,096 INFO: 32 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:39,097 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:39,100 INFO: 30 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 3, 0.22) full
+2023-04-23 06:24:39,109 INFO: 34 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:39,117 INFO: 48 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,120 INFO: 38 product: (Tea(name='Jasmine', price=6, type='Green'), 1, 0.14) full
+2023-04-23 06:24:39,133 INFO: 37 product: (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 2, 0.25) full
+2023-04-23 06:24:39,135 INFO: 33 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 1, 0.06) full
+2023-04-23 06:24:39,135 INFO: 16 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,136 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:39,146 INFO: 28 product: (Tea(name='English Breakfast', price=2, type='Black'), 1, 0.35) full
+2023-04-23 06:24:39,147 INFO: 10 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,150 INFO: 42 product: (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 1, 0.3) full
+2023-04-23 06:24:39,154 INFO: 17 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:39,155 INFO: 8 product: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,159 INFO: 39 product: (Tea(name='Vietnam Oolong', price=10, type='Oolong'), 2, 0.09) full
+2023-04-23 06:24:39,161 INFO: 3 product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,162 INFO: 15 product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-23 06:24:39,163 INFO: cart_id 95: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,163 INFO: cart_id 95: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,164 INFO: cart_id 95: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,164 INFO: cart_id 95: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,165 INFO: cart_id 95: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-23 06:24:39,165 INFO: cart_id 95: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,166 INFO: cart_id 95: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,166 INFO: cart_id 95: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,167 INFO: place_order:[Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='Pai Mu Tan', price=9, type='White'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')]
+2023-04-23 06:24:39,167 INFO: 2 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:39,170 INFO: 35 product: Tea(name='White Peach', price=5, type='White')
+2023-04-23 06:24:39,177 INFO: 36 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.2) full
+2023-04-23 06:24:39,188 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,188 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,189 INFO: cart_id 219: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:39,189 INFO: cart_id 219: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:39,190 INFO: cart_id 219: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:39,190 INFO: cart_id 219: Tea(name='English Breakfast', price=2, type='Black')
+2023-04-23 06:24:39,191 INFO: cart_id 219: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,191 INFO: cart_id 219: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,192 INFO: cart_id 219: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,193 INFO: cart_id 219: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-23 06:24:39,193 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,193 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,194 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,194 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,195 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,195 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,195 INFO: 46 product: (Tea(name='Pai Mu Tan', price=9, type='White'), 1, 0.35) full
+2023-04-23 06:24:39,196 INFO: cart_id 219: Tea(name='Jasmine', price=6, type='Green')
+2023-04-23 06:24:39,196 INFO: cart_id 219: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:39,197 INFO: cart_id 219: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:39,197 INFO: cart_id 219: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-23 06:24:39,198 INFO: place_order:[Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Tea(name='English Breakfast', price=2, type='Black'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Tea(name='Jasmine', price=6, type='Green'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')]
+2023-04-23 06:24:39,198 INFO: 41 product: Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-23 06:24:39,199 INFO: 26 product: Tea(name='White Peach', price=5, type='White')
